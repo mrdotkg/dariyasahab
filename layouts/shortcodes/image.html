@@ -1,0 +1,14 @@
+<p align="center"> 
+{{ if .IsNamedParams }}
+    <img src="{{ .Get "src" }}" class="img-fluid" alt="{{ .Get "caption" }}" style="height: 500px;">
+    <p align="center" style="color: rgba(0, 0, 0, 0.54);font-size: small;">
+        {{ .Get "caption" }}
+    </p>
+{{ else }}
+    <img src="{{ .Get 0 }}" class="img-fluid" alt="{{ .Get 1 }}" style="height: 500px;">
+    <p align="center" style="color: rgba(0, 0, 0, 0.54);font-size: small;">
+        {{ .Get 1 }}
+    </p>
+{{ end }}
+</p>
+ 

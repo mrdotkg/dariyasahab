@@ -1,0 +1,18 @@
+backend:
+    name: github
+    repo: measdot/dariyasahab
+  
+  publish_mode: editorial_workflow
+  
+  media_folder: static/img/uploads
+  public_folder: img/uploads
+  
+  collections:
+    - name: "articles"
+      label: "Articles"
+      folder: "content/articles"
+      create: true
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Date", name: "date", widget: "date" }
+        - { label: "Body", name: "body", widget: "markdown" }

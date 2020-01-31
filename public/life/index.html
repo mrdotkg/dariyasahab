@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html><head>
+<title>जीवन परिचय</title>
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<script src="/vendor/js/jquery.min.js" ></script>
+<script src="/vendor/js/popper.min.js" ></script>
+<script src="/vendor/js/bootstrap.min.js" ></script>
+<script src="/vendor/js/smooth-scroll.polyfills.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+<link rel="stylesheet" href="/scss/journal.min.d1e46276e6b8b5f326abd9d28457b28f961c216847eae83bf95b8f28f1352ca4.css" integrity="sha256-0eRidua4tfMmq9nShFeyj5YcIWhH6ug7&#43;VuPKPE1LKQ=" media="screen">
+
+<script src="//js/loadCSS.js"></script>
+<script>
+    loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+
+</head><body>
+    	<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="/">
+    
+        <div class="nav-title">
+            दरिया साहब
+        </div>
+        
+        <div class="nav-subtitle">
+            ग्रन्थ संग्रह
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+                
+                
+                    
+                
+                <a class="a-block nav-link-item active" href="/life">
+                    परिचय
+                </a>
+        
+            
+                
+                
+                <a class="a-block nav-link-item false" href="/teachings/">
+                    शिक्षायें
+                </a>
+        
+            
+                
+                
+                <a class="a-block nav-link-item false" href="/ashram">
+                    आश्रम
+                </a>
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        &copy;
+	२०२०, प्रस्तुत सभी ग्रन्थ, दरियापन्थ के प्रचारक व सेवक स्व. अरुण दास जी के जीवन भर के परिश्रम से डिजिटल हो पाए हैं. Talk to <a href='https://kgaurav.online' target='_blank' >creator/maintainer</a>
+    </div>
+    
+</div><div ref="extraContainer" class="extra-container">
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }"><script>
+  $(window).bind('scroll', function() {
+      var currentTop = $(window).scrollTop();
+      var currentBottom = $(window).scrollTop() + $(window).height();
+      var pageBottom = $('#EOF').offset().top;
+      var elems = $(":header");
+      elems.each(function(idx){
+        var elemTop = $(this).offset().top;
+        var id = $(this).attr('id');
+        var navElem = $('a[href="#' + id+ '"]');
+        if(currentTop >= elemTop || currentBottom >= pageBottom){
+      	  navElem.addClass('toc-active');
+        } else {
+          navElem.removeClass('toc-active');
+        }
+      })
+  }); 
+</script>
+<div class="toc-content">
+
+	
+	
+	
+	
+		
+		
+		
+		<center>- सूचि -</center>
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%a6%e0%a4%b0%e0%a4%af-%e0%a4%b8%e0%a4%b9%e0%a4%ac-%e0%a4%b8%e0%a4%a8-%e0%a5%a7%e0%a5%ac%e0%a5%a9%e0%a5%aa---%e0%a5%a7%e0%a5%ad%e0%a5%ae%e0%a5%a6-%e0%a4%88" v-on:click="closeDrawer">
+										 दरिया साहब (सन् १६३४ - १७८० ई.)
+									</a>
+								</li>
+						
+							</ul>
+						
+					
+				
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%aa%e0%a4%b2%e0%a4%a8-%e0%a4%aa%e0%a4%b7%e0%a4%a3" v-on:click="closeDrawer">
+										 पालन पोषण
+									</a>
+								</li>
+						
+							</ul>
+						
+							</ul>
+						
+					
+				
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%86%e0%a4%a7%e0%a4%af%e0%a4%a4%e0%a4%ae" v-on:click="closeDrawer">
+										 आध्यात्म
+									</a>
+								</li>
+						
+							</ul>
+						
+							</ul>
+						
+					
+				
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%aa%e0%a4%b0%e0%a4%b8%e0%a4%a5%e0%a4%a8" v-on:click="closeDrawer">
+										 प्रस्थान
+									</a>
+								</li>
+						
+							</ul>
+						
+							</ul>
+						
+					
+				
+			
+	
+</div></div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+    </div>
+</div><div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+                
+                    
+                    
+                        
+                    
+                    <a class="a-block drawer-menu-item active" href="/life">
+                        परिचय
+                    </a>
+            
+                
+                    
+                    
+                    <a class="a-block drawer-menu-item false" href="/teachings/">
+                        शिक्षायें
+                    </a>
+            
+                
+                    
+                    
+                    <a class="a-block drawer-menu-item false" href="/ashram">
+                        आश्रम
+                    </a>
+            
+            
+            <div class="toc"><script>
+  $(window).bind('scroll', function() {
+      var currentTop = $(window).scrollTop();
+      var currentBottom = $(window).scrollTop() + $(window).height();
+      var pageBottom = $('#EOF').offset().top;
+      var elems = $(":header");
+      elems.each(function(idx){
+        var elemTop = $(this).offset().top;
+        var id = $(this).attr('id');
+        var navElem = $('a[href="#' + id+ '"]');
+        if(currentTop >= elemTop || currentBottom >= pageBottom){
+      	  navElem.addClass('toc-active');
+        } else {
+          navElem.removeClass('toc-active');
+        }
+      })
+  }); 
+</script>
+<div class="toc-content">
+
+	
+	
+	
+	
+		
+		
+		
+		<center>- सूचि -</center>
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%a6%e0%a4%b0%e0%a4%af-%e0%a4%b8%e0%a4%b9%e0%a4%ac-%e0%a4%b8%e0%a4%a8-%e0%a5%a7%e0%a5%ac%e0%a5%a9%e0%a5%aa---%e0%a5%a7%e0%a5%ad%e0%a5%ae%e0%a5%a6-%e0%a4%88" v-on:click="closeDrawer">
+										 दरिया साहब (सन् १६३४ - १७८० ई.)
+									</a>
+								</li>
+						
+							</ul>
+						
+					
+				
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%aa%e0%a4%b2%e0%a4%a8-%e0%a4%aa%e0%a4%b7%e0%a4%a3" v-on:click="closeDrawer">
+										 पालन पोषण
+									</a>
+								</li>
+						
+							</ul>
+						
+							</ul>
+						
+					
+				
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%86%e0%a4%a7%e0%a4%af%e0%a4%a4%e0%a4%ae" v-on:click="closeDrawer">
+										 आध्यात्म
+									</a>
+								</li>
+						
+							</ul>
+						
+							</ul>
+						
+					
+				
+			
+				
+				
+					
+						
+						
+							<ul>
+						
+							<ul>
+						
+						
+								<li>
+				 					<a href="#%e0%a4%aa%e0%a4%b0%e0%a4%b8%e0%a4%a5%e0%a4%a8" v-on:click="closeDrawer">
+										 प्रस्थान
+									</a>
+								</li>
+						
+							</ul>
+						
+							</ul>
+						
+					
+				
+			
+	
+</div></div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="/">
+            दरिया साहब
+        </a>
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="/">
+        <div class="single-column-header-title">दरिया साहब</div>
+        
+        <div class="single-column-header-subtitle">ग्रन्थ संग्रह</div>
+        
+
+    </a>
+</div>
+            <div id="content">
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                 style="background-image: url('/')">
+                <div class="post-title">
+                    जीवन परिचय
+                    <div class="post-meta">
+                        
+
+                        
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                <div class="post-body">
+                    <h1 id="दरय-सहब-सन-१६३४---१७८०-ई">दरिया साहब (सन् १६३४ - १७८० ई.)</h1>
+<p>दरिया साहब (<code>बिहार वाले</code>) का जन्म बिहार प्रदेश के जिला शाहाबाद ग्राम धरकंधा (<code>ढरकना</code>) नामक गाँव में विक्रम संवत् १६९१ (<code>सन् १६३४ ई.</code>) में कार्तिक पुर्णिमा को हुआ था। आजकल यह ग्राम धरकंधा, जिला-रोहतास, सासाराम में पड़ता है। जैसा कि उल्लेख है-</p>
+<pre><code>संवत् सोलह सौ इक्यान्वे, कार्तिक पूरन जान।
+मातु गर्भ से प्रकट भये, रहेव दो घड़ी आन ॥
+</code></pre><p align="center"> 
+
+    <img src="/images/dariya-saheb.jpg" class="img-fluid" alt="दरिया साहेब, दरिया पन्थ के जनक" style="height: 500px;">
+    <p align="center" style="color: rgba(0, 0, 0, 0.54);font-size: small;">
+        दरिया साहेब, दरिया पन्थ के जनक
+    </p>
+
+
+</p>
+ 
+<h2 id="पलन-पषण">पालन पोषण</h2>
+<p>इनके पिता का नाम पृथुदेव उर्फ़ पूरनशाह &lsquo;पीरू&rsquo; था। जो उज्जैन वन्शीय क्षत्रीय थे। इनका पालन पोषण पीरू ने किया। इनके वास्ताविक पिता शाहाबाद जिले के बराव नामाक ग्राम में कुँवरधीर नामक राजपूत सरदार थे। जो मुसलमान शासकोँ द्वारा युद्ध में मारे गये। उस समय दरिया साहब की माता गर्भवती थी और किसी तरह भटकते हुए धरकंधा पहुँची और पूरनशाह के घर रहने लगी। वहीं पर कुछ दिनों के बाद दरिया साहब का जन्म हुआ। पूरनशाह पुत्र को पाकर बहुत प्रसन्न हुए।</p>
+<p>जब दरिया साहब एक महीने के हुए तो परमात्मा &lsquo;सत्पुरुष&rsquo; ने प्रकट होकर उनकी माता से इनका नाम &lsquo;दरिया&rsquo; रखने को कहा। माँ ने वैसा ही किया। जब दरिया साहब ने परम देदीप्यमान सत्पुरुष को देखा तो गदगद होकर परमात्मा को नमस्कार किया। इनकी माता इस रहस्य को समझ न सकीं। दरिया साहब जब नौ वर्ष के हुए तो इनका विवाह शाहमती नामक कन्या के साथ कर दिया गया। दरिया साहब जब पन्द्रह वर्ष के हुए तो इन्हेँ संसार से विरक्ति उत्पन्न होने लगी।</p>
+<h2 id="आधयतम">आध्यात्म</h2>
+<p>दरिया साहब जब सोलह वर्ष के हुए तो वे स्वप्न मेँ &lsquo;सबद&rsquo; (दिव्य उपदेश के पद) का ध्यान होता था तथा जागने पर भी इन्हे स्मरण रहता था। इन्हेँ अमरलोक का ध्यान होने लगा एवं पूर्वजन्म की बातें भी याद आने लगी। बीस वर्ष की अवस्था में इन्हें पूर्ण ज्ञान एवं सिद्धांत प्राप्त हो गया।</p>
+<p>दरिया साहब ने देखा की काल (यमराज) जीवोँ कू तरह-तरह के जालों में फ़ँसाकर उन्हेँ कष्ट दे रहा है। जीव परमात्मा को भूलकर देवी-देवताओं, मूर्तिपूजा, भेद-भाव, उँच-नीच, कनक-कामिनी के फन्द में पड़कर अनेक कष्ट को भुगत रहा है।</p>
+<pre><code>कनक-कामिनी के फन्द में, ललचि मन लपटाय।
+कलपि-कलपि जीव जरत है, मिथ्या जन्म गवाय ॥
+</code></pre><p>सद्गुरु ने जीव कल्याण हेतु मूर्तिपूजा, मांस-मदिरा, जीव हिंसा आदि आडम्बरों का विरोध किया। उन्होंने परमात्मा की सच्ची भक्ति पर बल दिया। पहले तो इनके उपदेश कुछ लोगो को अटपटे लगे परन्तु बाद में लोग समर्थक बन गये। इनके माता- पिता तथा भाइयों ने भी इनके उपदेशों को सहर्ष स्वीकार किये।</p>
+<p>दरिया साहब ने बीस ग्रन्थों की रचना की, जो निम्न हैं -</p>
+<p><code>दरियासागर</code>, <code>अमरसार</code>, <code>भक्तिहेतु</code>, <code>ज्ञानरतन</code>, <code>प्रेममूला</code>, <code>अग्रज्ञान</code>, <code>ग़णेशगोष्ठी</code>, <code>ब्रम्हविवेक</code>, <code>निर्भयज्ञान</code>, <code>ज्ञानमूल</code>, <code>विवेकसागर</code>, <code>गर्भचेतावन</code>, <code>ज्ञानदीपक</code>, <code>कालचरित्र</code>, <code>दरियानामा</code>, <code>जनसांगी</code>, <code>सहस्रानी</code>, <code>ज्ञानस्वरोदय</code>, <code>रमेश्वरगोष्ठि</code> तथा <code>बीजक</code>।</p>
+<h2 id="परसथन">प्रस्थान</h2>
+<p>दरिया साहब पाँच भाई एक बहन थे, जो इस प्रकार हैं - दरिया, बस्ती, फक्कर, उजियार, दलदास एवं बहन बुद्धिमती थीं। इनके गुरु स्वयं एक &lsquo;सत्&rsquo; थे। ये महात्मा १४६ वर्ष तक अपनी प्रखर ज्ञान रश्मियों से प्रकाशित करने के पश्चात विक्रम संवत् १८३७ (सन् १७८० ई.) में सतलोक प्रस्थान किये। जैसा कि प्रमाणित उल्लेख है -</p>
+<pre><code>संवत् अट्ठारह सौ सैंतीस, गयो पुरुष के पास। जो जन शबद विवेकिया, मिट जाये यम त्रास॥    
+भादों वदी औ चौथ के, वार रहेव रविवार। सवा जाम जब रैनि गयो, दरिया गवन विचार॥
+</code></pre>
+                    
+                    
+                </div>
+                
+            </div>
+            
+            
+            
+            
+        </div>
+    </div>
+</div>
+
+            </div><div id="single-column-footer">&copy;
+	२०२०, प्रस्तुत सभी ग्रन्थ, दरियापन्थ के प्रचारक व सेवक स्व. अरुण दास जी के जीवन भर के परिश्रम से डिजिटल हो पाए हैं. Talk to <a href='https://kgaurav.online' target='_blank' >creator/maintainer</a></div>
+    	</div>
+    <script src="//js/journal.js"></script>
+    </body>
+</html>

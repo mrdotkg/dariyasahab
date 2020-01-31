@@ -1,0 +1,6 @@
+&copy;
+	{{ if .Site.Copyright }}
+	{{- .Site.Copyright | safeHTML -}}
+	{{ else }}
+	{{.Site.Home.Date.Year}} {{.Site.Title}}
+	{{ end }}
