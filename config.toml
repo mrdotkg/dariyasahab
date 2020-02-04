@@ -1,5 +1,5 @@
-baseURL = "http://kgaurav.online/dariyasahab/"
-languageCode = "en-us"
+baseURL = "dariyasahab.in"
+languageCode = "hi" # or "hin" for Hindi
 title = "दरिया साहब"
 theme = "Diary"
 copyright = "२०२०, प्रस्तुत सभी ग्रन्थ, दरियापन्थ के प्रचारक व सेवक स्व. अरुण दास जी के जीवन भर के परिश्रम से डिजिटल हो पाए हैं. Talk to <a href='https://kgaurav.online' target='_blank' >creator/maintainer</a>"
