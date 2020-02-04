@@ -1,4 +1,4 @@
-baseURL = "dariyasahab.in"
+baseURL = "/"
 languageCode = "hi" # or "hin" for Hindi
 title = "दरिया साहब"
 theme = "Diary"
