@@ -12,10 +12,6 @@ subtitle = "ग्रन्थ संग्रह"
    category = "categories"
 
 [[menu.main]]
-url = "/life"
-name = "परिचय"
-weight = 1
-[[menu.main]]
 url = "/teachings/"
 name = "शिक्षायें"
 weight = 2
@@ -23,3 +19,7 @@ weight = 2
 url = "/ashram"
 name = "आश्रम"
 weight = 3
+[[menu.main]]
+url = "/life"
+name = "परिचय"
+weight = 1
